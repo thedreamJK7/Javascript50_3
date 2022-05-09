@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box  ;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    background: {
+        image: url(../img/footer.jpg);
+        size: cover;
+        repeat: no-repeat;
+        position: center;
+    };
+    filter: blur(10px);
+}
+
+.text {
+    h1 {
+        color: white;
+        font: {
+            size: 100px;
+            family: sans-serif;
+        }
+    }
+}
